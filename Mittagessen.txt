@@ -1,0 +1,23 @@
+Datum: 11.03.2024 21:58:58
+IP-Adresse: 127.0.0.1
+Name: Sebastian Plankl
+Vorspeise: Salat mit Hähnchestreifen
+Hauptspeise: Schnitzel mit Pommes
+Nachspeise: Kuchen
+Sonstiges: Ich habe eine Nussallegie
+
+Datum: 13.03.2024 10:28:20
+IP-Adresse: 127.0.0.1
+Name: Eyleen, Göbel
+Vorspeise: Kuchen
+Hauptspeise: Currywurst mit Pommes
+Nachspeise: Tee
+Sonstiges: Ich habe keine Allergien
+
+
+Datum: 13.03.2024 10:44:36
+IP-Adresse: 127.0.0.1
+Name: X,y
+Hauptspeise: asdftasdfsdf
+Sonstiges: adfsf
+

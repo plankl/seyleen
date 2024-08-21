@@ -1,0 +1,117 @@
+/* Grundlegende Definitionen */
+:root {
+    --primary-font: Arial, sans-serif;
+    --primary-color: #ffffff;
+    --secondary-color: #ffffff;
+    --footer-bg-color: rgba(222, 207, 207, 0.25);
+}
+
+body {
+    font-family: var(--primary-font);
+    background-image: url('../assets/login_background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: var(--primary-color);
+    text-shadow: 5px 5px 8px rgba(179, 0, 255, 0.8);
+    font-size: 50px;
+}
+
+/* Login-Container-Styling */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#login-form button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    width: 85%;
+    transition: background-color 0.3s ease-in-out; /* Sanfter Übergang für den Farbwechsel */
+    font-size: 20px;
+}
+
+#login-form button:hover {
+    background-color: #10e1e4; /* Farbe ändern, wenn mit der Maus darüber gefahren wird */
+}
+
+/* Countdown-Timer-Styling */
+#countdown-timer {
+    font-size: 50px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 8px rgba(179, 0, 255, 0.8);
+}
+
+/* Footer-Styling */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--footer-bg-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 50px;
+}
+
+/* Media Queries für Responsivität */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Größere Schrift für bessere Lesbarkeit */
+    }
+    .container {
+        width: 100%; /* Volle Breite für Container */
+        padding: 0 15px; /* Etwas Innenabstand */
+    }
+    nav {
+        display: none; /* Navigation für kleinere Bildschirme ausblenden */
+    }
+    .hamburger-menu {
+        display: block; /* Hamburger-Menü anzeigen */
+    }
+    .button, .form-control {
+        min-height: 48px; /* Größere Touch-Ziele für Buttons und Formularfelder */
+        font-size: 18px; /* Größere Schrift in Formularelementen */
+    }
+    
+    /*img {
+        max-width: 100%;
+        height: auto; /* Responsive Bilder */
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Stile für Tablets und größere Smartphones */
+    .container {
+        padding: 0 20px; /* Etwas mehr Innenabstand */
+    }
+    .hamburger-menu {
+        display: none; /* Hamburger-Menü für Tablets möglicherweise ausblenden */
+    }
+    /* Weitere spezifische Anpassungen hier einfügen */
+}
+

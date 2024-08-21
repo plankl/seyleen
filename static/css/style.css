@@ -1,0 +1,286 @@
+:root {
+    --background-image: url('../assets/background.png'); /* Pfad zum Hintergrundbild */
+    --background-image-mobile: url('../assets/mobile-background.png');
+    --header-footer-bg-color: #007bff92; /* Standardfarbe für Header und Footer */
+    --background-color: rgba(0, 123, 255, 0.473);
+    --text-color: #000000; /* Standard Textfarbe */
+    --font-family: Arial, sans-serif; /* Standard Schriftart */
+    --welcome-text-color: #ffffff; /* Textfarbe für den Willkommensbereich */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: #ffffff;
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; /* Damit das Hintergrundbild beim Scrollen fixiert bleibt */
+    overflow-x: hidden; /* Verhindert horizontales Scrollen */
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 100vw;
+    height: 100vh;
+}
+
+
+header {
+    width: 100%;
+    background-color: var(--background-color);
+    text-shadow: 0px 0px 10px rgba(179, 0, 255, 0.7);
+    size: 400px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    font-family: 'Oswald', sans-serif;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Stellt sicher, dass der Header über den anderen Inhalten liegt */    
+}
+
+/* Individuelle Stile für die Willkommens-Sektion */
+#willkommen {
+    background-color: rgba(255, 255, 255, 0); /* Spezifische Hintergrundfarbe */
+    color: #ffffff; /* Schriftfarbe */
+    font-family: 'Sofia', cursive; /* Schriftart */
+    text-shadow: 0px 0px 5px rgba(179, 0, 255, 1); /* Schatteneffekt */
+}
+
+/* Stil für den gesamten Willkommens-Textbereich */
+.welcome-text {
+    text-align: center; /* Zentriert den Text horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Zentriert den Inhalt vertikal */
+    height: 100%; /* Nimmt die volle Höhe des Elternelements ein */
+}
+
+/* Individuelle Stile für die Countdown-Sektion */
+.countdown {
+    /*background-color: rgba(179, 0, 255, 0.8); /* Hintergrundfarbe */
+    color: #ffffff; /* Schriftfarbe */
+    /*font-family: 'Oswald', sans-serif;*/
+    font-size: 30px;
+    text-align: center;
+    /*text-shadow: 5px 5px 20px rgba(179, 0, 255, 0.8);*/
+}
+
+/* Stil für den Titel */
+#welcome-title {
+    font-family: 'Sofia', cursive;
+    /*font-size: 100px; /* Beispiel für Schriftgröße */ 
+    color: #ffffff; /* Beispiel für Schriftfarbe */
+    text-align: center;
+    text-shadow: 5px 5px 20px rgba(179, 0, 255, 1);
+}
+
+/* Individuelle Stile für die Ablauf-Sektion */
+#ablauf {
+    background-color: rgba(152, 68, 211, 0.7); /* Hintergrundfarbe */
+    color: #ffffff; /* Schriftfarbe */
+    /*font-family: 'Sofia', cursive; /* Schriftart */
+    font-family: 'Oswald', sans-serif;
+    /*text-shadow: 0px 0px 8px rgba(58, 233, 10, 0.5); /* Schatteneffekt */
+}
+
+/* Individuelle Stile für die Anfahrt-Sektion */
+#anfahrt {
+    background-color: rgba(165, 115, 57, 0.7); /* Hintergrundfarbe */
+    color: #ffffff; /* Schriftfarbe */
+    font-family: 'Oswald', sans-serif;
+
+}
+
+/* Individuelle Stile für die Mittagessen-Sektion */
+#mittagessen {
+    background-color: rgba(59, 59, 180, 0.7); /* Hintergrundfarbe */
+    color: #ffffff; /* Schriftfarbe */
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Individuelle Stile für die Abendessen-Sektion */
+#abendessen {
+    background-color: rgba(86, 244, 173, 0.7); /* Hintergrundfarbe */
+    color: #ffffff; /* Schriftfarbe */
+    font-family: 'Oswald', sans-serif;
+    white-space: normal; /* Änderung des white-space-Attributs */
+}
+
+
+
+/* Individuelle Stile für die Allgemeines-Sektion */
+#allgemeines {
+    background-color: rgba(84, 159, 89, 0.7); /* Hintergrundfarbe */
+    color: #ffffff; /* Schriftfarbe */
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Individuelle Stile für die Wetter-Sektion */
+#geschenke {
+    background-color: rgba(73, 224, 192, 0.7); /* Hintergrundfarbe */
+    color: rgb(255, 255, 255); /* Schriftfarbe */
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Individuelle Stile für die Übernachtung-Sektion */
+#uebernachtung {
+    background-color: rgba(135, 169, 242, 0.7); /* Hintergrundfarbe */
+    color: rgb(255, 255, 255); /* Schriftfarbe */
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Individuelle Stile für die Wetter-Sektion */
+#wetter {
+    background-color: rgba(199, 65, 195, 0.7); /* Hintergrundfarbe */
+    color: rgb(255, 255, 255); /* Schriftfarbe */
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hamburger-menu {
+    display: none; /* Standardmäßig ausgeblendet */
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 65px; /* Passen Sie den Abstand nach oben nach Bedarf an */
+    transform: translateX(-50%);
+}
+
+.hamburger-menu div {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.full-height-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    margin: 20px;
+    margin-bottom: 40px; /* Erhöhter unterer Rand für Abstand zwischen den Sektionen */
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(1, 1, 1, 0.9);
+    
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: var(--background-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 5px 5px 8px rgba(179, 0, 255, 0.8);
+}
+
+.linksbuendig {
+    text-align: left;
+}
+
+.rechtsbuendig {
+    text-align: right;
+}
+
+.mittig {
+    text-align: center;
+}
+
+.blocksatz {
+    text-align: justify;
+}
+
+
+
+
+@media (max-width: 768px) {
+   
+    
+    .hamburger-menu {
+        display: block;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: var(--primary-color);
+        width: 100%;
+        display: none;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .nav-active {
+        display: flex;
+    }
+
+    .map-responsive{
+
+        overflow:hidden;
+    
+        padding-bottom:56.25%;
+    
+        position:relative;
+    
+        height:0;
+    
+    }
+    
+    .map-responsive iframe{
+    
+        left:0;
+    
+        top:0;
+    
+        height:100%;
+    
+        width:100%;
+    
+        position:absolute;
+    
+    }
+
+}
+

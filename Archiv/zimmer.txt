@@ -1,0 +1,16 @@
+Datum: 09.02.2024 23:08:46
+IP-Adresse: 127.0.0.1
+Name: Eyleen und Sebastian
+Zimmer: Einzelzimmer_3_Sterne
+Startdatum: 2024-02-19
+Enddatum: 2024-02-22
+Anmerkungen: 
+
+Datum: 09.02.2024 23:09:03
+IP-Adresse: 127.0.0.1
+Name: Max
+Zimmer: Einzelzimmer_3_Sterne
+Startdatum: 2024-03-10
+Enddatum: 2024-03-07
+Anmerkungen: 
+

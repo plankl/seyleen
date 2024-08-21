@@ -1,0 +1,9 @@
+Datum: 10.02.2024 00:16:15
+IP-Adresse: 127.0.0.1
+Gerät: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0
+Name: SEbastian Plankl, Max Mustermann
+Zimmer: Einzelzimmer_3_Sterne
+Startdatum: 2024-02-16
+Enddatum: 2024-02-24
+Anmerkungen: 
+
